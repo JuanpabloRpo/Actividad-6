@@ -1,5 +1,5 @@
 html{
-    background-color: brown;
+    background-color: rgb(212, 212, 212);
 }
 
 .container{
@@ -21,12 +21,16 @@ html{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1rem;
     margin-bottom: 0px;
+    color: brown;
 }
 
 .container .title1 h1{
-    margin-top: 0px;
+    margin-top: 5px;
+    margin-bottom: 60px;
     padding-top: 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    color: brown;
 }
 
 .container .row{
@@ -40,15 +44,50 @@ html{
 .container .row .col-33{
     width: 33%;
     height: 60vh;
+    
 }
 
 .container .row .col-33 figure{
     width: 80%;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .container .row .col-33 figure img{
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.container .row .col-33 h1{
+    margin-top: 30px;
+    padding-top: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.container .row .col-33 h5{
+    margin-top: -10px;
+    padding-top: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.container .row .col-33 a{
+    margin-top: -10px;
+    padding-top: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    color: brown;
 }
 
